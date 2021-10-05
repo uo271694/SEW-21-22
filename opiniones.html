@@ -13,17 +13,22 @@
     <h1>Brendan Eich</h1>
     <h2>Opiniones</h2>
     <form>
-        <p><label>Nombre: <input name=nombre></label></p>
-        <p><label>Email: <input type=email name=email></label></p>
-        <label for="start">Fecha de nacimiento:</label>
-        <input type="date" name=fecha id="start" value="2021-10-05" min="1900-01-01" max="2021-10-05">
+        <p><label for="nombre">Nombre: </label>
+        <input id="nombre"></p>
+        <p><label for="email">Email: </label>
+        <input type=email id="email"></p>
+        <p><label for="start">Fecha de nacimiento:</label>
+        <input type="date" id="start" value="2021-10-05" min="1900-01-01" max="2021-10-05"></p>
         <fieldset>
             <legend> Género </legend>
-            <p><label> <input type=radio name=genero> Hombre </label></p>
-            <p><label> <input type=radio name=genero> Mujer </label></p>
+            <label for="hombre">Hombre </label>
+            <input type=radio id="hombre">
+            <label for="mujer">Mujer </label>
+            <input type=radio id="mujer">
         </fieldset>
-        <p><label>Comentario: <textarea></textarea></label></p>
-        <p><button>Enviar</button></p>
+        <p><label for="comentario">Comentario: </label>
+        <textarea id="comentario"></textarea></p>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 
