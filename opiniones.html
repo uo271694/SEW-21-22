@@ -10,15 +10,23 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Inicio</a> </li>
+            <li> <a href="informacion.html">Información</a> </li>
+            <li> <a href="biografia.html">Biografía</a> </li>
+            <li> <a href="opiniones.html">Opiniones</a> </li>
+        </ul>
+    </nav>
     <h1>Brendan Eich</h1>
     <h2>Opiniones</h2>
     <form>
         <p><label for="nombre">Nombre: </label>
-        <input id="nombre"></p>
+            <input id="nombre"></p>
         <p><label for="email">Email: </label>
-        <input type=email id="email"></p>
+            <input type=email id="email"></p>
         <p><label for="start">Fecha de nacimiento:</label>
-        <input type="date" id="start" value="2021-10-05" min="1900-01-01" max="2021-10-05"></p>
+            <input type="date" id="start" value="2021-10-05" min="1900-01-01" max="2021-10-05"></p>
         <fieldset>
             <legend> Género </legend>
             <label for="hombre">Hombre </label>
@@ -27,7 +35,7 @@
             <input type=radio name="genero" id="mujer">
         </fieldset>
         <p><label for="comentario">Comentario: </label>
-        <textarea id="comentario"></textarea></p>
+            <textarea id="comentario"></textarea></p>
         <input type="submit" value="Enviar">
     </form>
 </body>
