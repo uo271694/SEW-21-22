@@ -73,9 +73,9 @@ aside {
     width: 215px;
     background-color: gainsboro;
     position: absolute;
-    right: 0;
-    top: 30;
-    bottom: 10;
+    right: 0px;
+    top: 140px;
+    bottom: 10px;
     z-index: 999;
     padding-right: 60px;
     color: black;
@@ -84,6 +84,11 @@ aside {
 aside p {
     font-size: larger;
     font-weight: bold;
+}
+
+audio {
+    margin-top: 20px;
+    display: block;
 }
 
 aside a {
