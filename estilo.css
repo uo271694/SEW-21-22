@@ -1,7 +1,12 @@
+/* Especificidad (0,0,0)*/
+
 * {
     font-family: "Noto Sans", sans-serif;
     background-color: gainsboro;
 }
+
+
+/* Especificidad (0,0,1)*/
 
 ul {
     list-style-type: none;
@@ -11,14 +16,23 @@ ul {
     background-color: #333;
 }
 
+
+/* Especificidad (0,0,1)*/
+
 p {
     text-align: justify;
     width: 80%;
 }
 
+
+/* Especificidad (0,0,1)*/
+
 img {
     width: 20%;
 }
+
+
+/* Especificidad (0,0,1)*/
 
 footer {
     position: fixed;
@@ -28,9 +42,15 @@ footer {
     text-align: center;
 }
 
+
+/* Especificidad (0,0,1)*/
+
 li {
     float: left;
 }
+
+
+/* Especificidad (0,0,2)*/
 
 li a {
     display: block;
@@ -41,9 +61,15 @@ li a {
     background-color: #333;
 }
 
+
+/* Especificidad (0,1,2)*/
+
 li a:hover {
     background-color: rgb(26, 141, 106);
 }
+
+
+/* Especificidad (0,0,1)*/
 
 table,
 th,
@@ -53,22 +79,37 @@ td {
     width: 640px;
 }
 
+
+/* Especificidad (0,0,1)*/
+
 table {
     display: inline-block;
 }
 
+
+/* Especificidad (0,0,1)*/
+
 td {
     padding: 10px;
 }
+
+
+/* Especificidad (0,0,1)*/
 
 video {
     width: 600px;
     display: inline-block;
 }
 
+
+/* Especificidad (0,0,1)*/
+
 fieldset {
     width: 300px;
 }
+
+
+/* Especificidad (0,0,1)*/
 
 aside {
     width: 215px;
@@ -82,15 +123,24 @@ aside {
     color: black;
 }
 
+
+/* Especificidad (0,0,2)*/
+
 aside p {
     font-size: larger;
     font-weight: bold;
 }
 
+
+/* Especificidad (0,0,1)*/
+
 audio {
     margin-top: 20px;
     display: block;
 }
+
+
+/* Especificidad (0,0,2)*/
 
 aside a {
     font-size: large;
