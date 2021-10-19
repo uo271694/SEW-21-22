@@ -37,7 +37,7 @@ li a {
     display: block;
     color: gainsboro;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 36px;
     text-decoration: none;
     background-color: #333;
 }
@@ -74,7 +74,7 @@ aside {
     width: 215px;
     background-color: gainsboro;
     position: absolute;
-    right: 0px;
+    right: -50px;
     top: 140px;
     bottom: 10px;
     z-index: 999;
