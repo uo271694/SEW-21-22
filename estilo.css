@@ -11,6 +11,11 @@ ul {
     background-color: #333;
 }
 
+p {
+    text-align: justify;
+    width: 80%;
+}
+
 img {
     width: 20%;
 }
@@ -62,4 +67,26 @@ video {
 
 fieldset {
     width: 300px;
+}
+
+aside {
+    width: 215px;
+    background-color: gainsboro;
+    position: absolute;
+    right: 0;
+    top: 30;
+    bottom: 10;
+    z-index: 999;
+    padding-right: 60px;
+    color: black;
+}
+
+aside p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+aside a {
+    font-size: large;
+    display: block;
 }
