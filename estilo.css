@@ -71,10 +71,10 @@ fieldset {
 
 aside {
     width: 215px;
-    background-color: gainsboro;
+    background-color: transparent;
     position: absolute;
     right: 0px;
-    top: 280px;
+    top: 140px;
     bottom: 10px;
     z-index: 999;
     padding-right: 60px;
